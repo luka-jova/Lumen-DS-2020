@@ -19,7 +19,7 @@ The full problem statement is available in `Problem-statement.pdf`.
 
 The following is a sketch of one machine and its sensors:
 
-<img src="images/machine.png" alt="IMG: machine with sensors" width="400">
+<img src="images/machine.png" alt="IMG: machine with sensors" width="600">
 
 ## Solution
 Our solution is software that analyzes time series of measurements obtained from sensors on the machine, and early diagnosing whether a machine needs repairs.
@@ -30,7 +30,7 @@ There are two main components of the solution:
 -  Measurements are classified into 4 categories depending on severity, according to **ISO 10816** vibration severity standard.
 
 *Example: The following time series shows a drop in vibration levels of the drive motor after performing maintenance.*
-![IMG: Measurements Timeseries](images/measurements-timeseries.png)
+<img src="images/measurements-timeseries.png" alt="IMG: Measurements Timeseries" width="600">
 
 ### 2. Anomaly detection
 - Each part of the machine has its own *regular* vibration level, determined by previous measurements. Anomaly detection helps figure out if a machine is starting to malfunction by detecting and reporting unexpected changes in vibration levels.
