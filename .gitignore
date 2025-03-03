@@ -1,7 +1,0 @@
-*.csv
-*.mat
-*.png
-*.zip
-*.txt
-__pycache__
-in.*
